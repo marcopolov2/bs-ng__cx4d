@@ -1,0 +1,39 @@
+:host {
+  position: relative;
+}
+
+.background_animation,
+.background_animation__thin_header,
+.background_animation__thin_footer {
+  background-size: 400% 400%;
+  animation: gradient 50s ease infinite;
+  background: linear-gradient(-45deg, #ad1126, #e7c011, #e27006, #5f706c, #0044ffc5);
+  background-size: 400% 400%;
+  width: 100%;
+  height: 70px;
+}
+
+.background_animation__thin_header,
+.background_animation__thin_footer {
+  height: 3px;
+}
+
+.background_animation__thin_header {
+  margin-top: 4px;
+}
+
+.background_animation__thin_footer {
+  margin-bottom: 4px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

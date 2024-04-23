@@ -1,0 +1,31 @@
+.feature-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-item:hover .feature-image {
+  transform: scale(1.04);
+}
+
+h1.logo_acronym {
+  letter-spacing: 0.5rem;
+}
+
+// location
+.location__section {
+  iframe {
+    margin: 2rem;
+    width: 70%;
+    height: 300px;
+  }
+}
+
+// overrides
+.img-thumbnail {
+  padding: 1px;
+  background-color: var(--bs-body-bg);
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: none;
+  border-radius: 0;
+  max-width: 100%;
+  height: auto;
+}
