@@ -4,7 +4,6 @@
 
 This repository contains an Angular 17 app using ESLint and Prettier.
 
-
 ## System Requirements
 
 ## Running the Frontend
@@ -20,6 +19,6 @@ npm i
 ```
 
 ```bash
-npm start
+npm run start
 ```
 Once the fe is up and running, navigate to http://localhost:4200/
