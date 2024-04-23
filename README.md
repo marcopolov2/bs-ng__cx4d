@@ -6,6 +6,9 @@ This repository contains an Angular 17 app using ESLint and Prettier.
 
 ## System Requirements
 
+Node 18.20.2
+Angular CLI 17.3.5
+
 ## Running the Frontend
 
 To run the frontend, navigate to the 'frontend' directory in your terminal:
