@@ -1,0 +1,68 @@
+<section class="hero-section text-center py-5 text-light">
+  <div class="dark-overlay"></div>
+  <div class="container">
+    <h1 class="logo_acronym">CX4D</h1>
+
+    <p class="lead">Forms, Fast</p>
+    <p class="lead">Explore data retrieval faster than ever</p>
+  </div>
+</section>
+
+<section class="location__section text-center">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.2548633643297!2d18.42330031435196!3d-33.92486850143866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc51c47464ed6b%3A0x28b642ee5a134d5!2sCape%20Town%2C%20South%20Africa!5e0!3m2!1sen!2sus!4v1649825162834!5m2!1sen!2sus"
+    loading="lazy"
+  ></iframe>
+</section>
+
+<ng-template
+  #demoModal
+  let-modal
+>
+  <div class="modal-header">
+    <h4
+      class="modal-title"
+      id="modal-basic-title"
+    >
+      Profile update
+    </h4>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="modal"
+      aria-label="Close"
+      (click)="modal.dismiss('Cross click')"
+    ></button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="dateOfBirth">Date of birth</label>
+        <div class="input-group">
+          <input
+            id="dateOfBirth"
+            name="dateOfBirth"
+            class="form-control"
+            placeholder="yyyy-mm-dd"
+            ngbDatepicker
+            #dp="ngbDatepicker"
+          />
+          <button
+            type="button"
+            class="btn btn-outline-secondary bi bi-calendar"
+            (click)="dp.toggle()"
+          ></button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer">
+    <button
+      type="button"
+      class="btn btn-outline-dark"
+      (click)="modal.close('Save click')"
+    >
+      Save
+    </button>
+  </div>
+</ng-template>
