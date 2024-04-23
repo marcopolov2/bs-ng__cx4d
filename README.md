@@ -1,17 +1,27 @@
-# Cx4dV2
+# CX4D
 
-This is an Angular 17 project configured with ESLint and Prettier.
+## Navigate the world of phone numbers!
 
-## Getting Started
+## Description
 
-### Prerequisites
+This repository contains an Angular 17 app using ESLint and Prettier.
 
-Before running the project, ensure you have the following installed:
 
-- npm (Node Package Manager)
+## System Requirements
 
-### Installation
+## Running the Frontend
 
-1. Clone the repository to your local machine:
+To run the frontend, navigate to the 'frontend' directory in your terminal:
 
-2. Run
+```bash
+cd bs-ng__cx4d
+```
+
+```bash
+npm i
+```
+
+```bash
+npm start
+```
+Once the fe is up and running, navigate to http://localhost:4200/
