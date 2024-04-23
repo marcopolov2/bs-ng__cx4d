@@ -1,7 +1,5 @@
 # CX4D
 
-## Navigate the world of phone numbers!
-
 ## Description
 
 This repository contains an Angular 17 app using ESLint and Prettier.
